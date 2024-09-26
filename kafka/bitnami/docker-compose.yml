@@ -23,7 +23,7 @@ services:
       - KAFKA_JMX_PORT= 9997
       - KAFKA_JMX_HOSTNAME= kafka
   kafka-ui:
-    container_name: kafka-ui
+    container_name: kafka-ui-new
     image: provectuslabs/kafka-ui:latest
     ports:
       - 8082:8080
